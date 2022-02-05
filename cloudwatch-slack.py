@@ -7,7 +7,7 @@ from urllib.request import Request, urlopen
 from urllib.error import URLError, HTTPError
 
 HOOK_URL = os.environ['hookurl']
-SLACK_CHANNEL = os.environ['slackChannel']
+SLACK_CHANNEL = os.environ['slackchannel']
 
 logger = logging.getLogger()
 logger.setLevel(logging.INFO)
